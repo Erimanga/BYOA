@@ -9,3 +9,7 @@ __pycache__/
 # System
 .DS_Store
 Thumbs.db
+
+# Assignment materials (not part of submission)
+实验描述.md
+*模版*
