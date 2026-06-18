@@ -14,8 +14,12 @@ import sys
 from pathlib import Path
 
 from anthropic import Anthropic
+from dotenv import load_dotenv
 from mcp.client.session import ClientSession
 from mcp.client.stdio import StdioServerParameters, stdio_client
+
+# 加载 .env 文件
+load_dotenv(Path(__file__).parent / ".env")
 
 # ── 配置 ──────────────────────────────────────────────
 
